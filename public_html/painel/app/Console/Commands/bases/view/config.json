@@ -1,0 +1,65 @@
+{
+	"index":
+	{
+		"scripts":
+		[
+
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+
+		],
+
+		"modals":
+		[
+
+		],
+
+		"list_fields":
+		{
+			"": ""
+		},
+
+		"extra_buttons":
+		[
+			
+		]
+	},
+
+	"form":
+	{
+		"scripts":
+		[
+			
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+			{
+				"label":true,
+				"name":"",
+				"translate":"",
+				"type":"",
+				"id":"",
+				"class":"",
+				"validate":""
+			}
+		],
+
+		"modals":
+		[
+
+		]
+	}
+}

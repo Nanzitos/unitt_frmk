@@ -1,0 +1,10 @@
+wintimeiHealthBundle_dashboard:
+    pattern:      /
+    defaults:     { _controller: wintimeiHealthBundle:Default:index }
+    access:       {SESSION_AUTHENTICATED_USER}
+    rule_access:  
+    
+wintimeiHealthBundle_login:
+    pattern:  /login
+    defaults: { _controller: wintimeiHealthBundle:Club:index }
+    

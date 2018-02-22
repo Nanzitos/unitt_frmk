@@ -1,0 +1,64 @@
+[11-Jul-2017 17:08:31 America/Sao_Paulo] PHP Fatal error:  Call to a member function parameters() on null in /home/afiasoccer/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 836
+[12-Jul-2017 17:55:49 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::links() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 127
+[29-Jul-2017 17:57:23 America/Sao_Paulo] PHP Fatal error:  Class 'Sliders' not found in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 29
+[29-Jul-2017 17:57:45 America/Sao_Paulo] PHP Fatal error:  Class 'Sliders' not found in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 29
+[29-Jul-2017 17:57:47 America/Sao_Paulo] PHP Fatal error:  Class 'Sliders' not found in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 29
+[29-Jul-2017 17:57:48 America/Sao_Paulo] PHP Fatal error:  Class 'Sliders' not found in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 29
+[29-Jul-2017 17:58:31 America/Sao_Paulo] PHP Fatal error:  Class 'Sliders' not found in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 29
+[29-Jul-2017 17:58:32 America/Sao_Paulo] PHP Fatal error:  Class 'Sliders' not found in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 29
+[30-Jul-2017 14:55:33 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[30-Jul-2017 15:01:04 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[30-Jul-2017 15:01:06 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[31-Jul-2017 10:48:51 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[31-Jul-2017 11:46:04 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[31-Jul-2017 12:39:56 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[31-Jul-2017 12:41:03 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[31-Jul-2017 13:32:41 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[31-Jul-2017 14:12:31 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[31-Jul-2017 16:34:25 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[31-Jul-2017 17:17:59 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[01-Aug-2017 17:22:23 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[01-Aug-2017 17:22:38 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[02-Aug-2017 14:34:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 121
+[09-Aug-2017 19:40:57 America/Sao_Paulo] PHP Fatal error:  Class 'App\Noticias' not found in /home/afiasoccer/public_html/painel/app/Http/Controllers/NoticiasController.php on line 20
+[11-Aug-2017 17:45:23 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[14-Aug-2017 18:49:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 30
+[14-Aug-2017 18:49:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 30
+[14-Aug-2017 18:56:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 30
+[14-Aug-2017 18:56:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 30
+[14-Aug-2017 18:58:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 30
+[14-Aug-2017 18:59:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 30
+[14-Aug-2017 19:44:45 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[14-Aug-2017 19:44:49 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[14-Aug-2017 21:29:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 51
+[14-Aug-2017 21:29:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 51
+[14-Aug-2017 21:31:41 America/Sao_Paulo] PHP Fatal error:  Only variables can be passed by reference in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 50
+[14-Aug-2017 21:31:43 America/Sao_Paulo] PHP Fatal error:  Only variables can be passed by reference in /home/afiasoccer/public_html/painel/app/Http/routes.php on line 50
+[15-Aug-2017 09:44:56 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[15-Aug-2017 14:59:24 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[16-Aug-2017 12:23:15 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[16-Aug-2017 12:25:06 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 18:52:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/afiasoccer/public_html/painel/app/Sliders.php on line 21
+[17-Aug-2017 18:52:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/afiasoccer/public_html/painel/app/Sliders.php on line 21
+[17-Aug-2017 18:52:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/afiasoccer/public_html/painel/app/Sliders.php on line 21
+[17-Aug-2017 18:52:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/afiasoccer/public_html/painel/app/Sliders.php on line 21
+[17-Aug-2017 19:04:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'find' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/afiasoccer/public_html/painel/app/Sliders.php on line 22
+[17-Aug-2017 19:05:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/afiasoccer/public_html/painel/app/Sliders.php on line 26
+[17-Aug-2017 19:39:06 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:39:55 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:39:57 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:39:58 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:42:33 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:51:36 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:51:43 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:51:44 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:51:57 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[17-Aug-2017 19:51:58 America/Sao_Paulo] PHP Fatal error:  Call to undefined method stdClass::appends() in /home/afiasoccer/public_html/painel/storage/framework/views/2a08d11b613e5897fe5dafdd93be12a4daeb5ee2.php on line 125
+[04-Sep-2017 18:57:08 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[04-Sep-2017 18:58:08 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[04-Sep-2017 18:58:38 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[05-Sep-2017 12:45:18 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[05-Sep-2017 12:46:16 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[05-Sep-2017 13:04:30 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[05-Sep-2017 18:49:48 America/Sao_Paulo] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception in /home/afiasoccer/public_html/painel/app/Helpers/FormHelper.php on line 0
+[05-Sep-2017 19:41:45 America/Sao_Paulo] PHP Fatal error:  Call to a member function getPathName() on array in /home/afiasoccer/public_html/painel/app/IdadeCategorias.php on line 26

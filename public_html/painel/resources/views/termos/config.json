@@ -1,0 +1,82 @@
+{
+	"index":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/areas.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+
+		],
+
+		"modals":
+		[
+
+		],
+
+		"list_fields":
+		{
+			"id":"#",
+			"id_lingua":"Lingua",
+			"chave":"Chave",
+			"traducao": "Traducao"
+		}
+	},
+
+	"form":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/areas.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+			{
+				"label":true,
+				"name":"id_lingua",
+				"translate":"termos.id_lingua",
+				"type":"select",
+				"relation":["Linguas","nome"],				
+				"id":"id_lingua",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"chave",
+				"translate":"termos.chave",
+				"type":"text",				
+				"id":"chave",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"traducao",
+				"translate":"termos.traducao",
+				"type":"text",				
+				"id":"traducao",
+				"class":"",
+				"validate":""
+			}
+		],
+
+		"modals":
+		[
+
+		]
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"index":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/gruposusuarios.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+
+		],
+
+		"modals":
+		[
+
+		],
+
+		"list_fields":
+		{
+			"id":"#",
+			"nome":"Grupo"
+		}
+	},
+
+	"form":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/gruposusuarios.js"
+
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+			{
+				"label":true,
+				"name":"nome",
+				"translate":"gruposusuarios.nome",
+				"type":"text",
+				"id":"nome",
+				"class":"",
+				"validate":""
+			}
+
+		],
+
+		"modals":
+		[
+
+		]
+	}
+}

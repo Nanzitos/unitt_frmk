@@ -1,0 +1,87 @@
+[2018-02-22 13:26:49] local.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\NoticiasController does not exist' in /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/ControllerInspector.php:35
+Stack trace:
+#0 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/ControllerInspector.php(35): ReflectionClass->__construct('App\\Http\\Contro...')
+#1 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(256): Illuminate\Routing\ControllerInspector->getRoutable('App\\Http\\Contro...', 'noticias')
+#2 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(230): Illuminate\Routing\Router->controller('noticias', 'NoticiasControl...')
+#3 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(217): Illuminate\Routing\Router->controllers(Array)
+#4 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(108): Illuminate\Support\Facades\Facade::__callStatic('controllers', Array)
+#5 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(108): Illuminate\Support\Facades\Route::controllers(Array)
+#6 [internal function]: App\Providers\RouteServiceProvider->{closure}(Object(Illuminate\Routing\Router))
+#7 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(398): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#8 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(219): Illuminate\Routing\Router->group(Array, Object(Closure))
+#9 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(124): Illuminate\Support\Facades\Facade::__callStatic('group', Array)
+#10 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(124): Illuminate\Support\Facades\Route::group(Array, Object(Closure))
+#11 /home/ren/git/unitt/public_html/painel/app/Providers/RouteServiceProvider.php(41): require('/home/ren/git/u...')
+#12 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#13 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(398): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#14 /home/ren/git/unitt/public_html/painel/app/Providers/RouteServiceProvider.php(42): Illuminate\Routing\Router->group(Array, Object(Closure))
+#15 [internal function]: App\Providers\RouteServiceProvider->map(Object(Illuminate\Routing\Router))
+#16 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#17 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(72): Illuminate\Container\Container->call(Array)
+#18 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(31): Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes()
+#19 /home/ren/git/unitt/public_html/painel/app/Providers/RouteServiceProvider.php(29): Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot(Object(Illuminate\Routing\Router))
+#20 [internal function]: App\Providers\RouteServiceProvider->boot(Object(Illuminate\Routing\Router))
+#21 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#22 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(757): Illuminate\Container\Container->call(Array)
+#23 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(740): Illuminate\Foundation\Application->bootProvider(Object(App\Providers\RouteServiceProvider))
+#24 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(App\Providers\RouteServiceProvider), 15)
+#25 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(741): array_walk(Array, Object(Closure))
+#26 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#27 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#28 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#29 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#30 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#31 /home/ren/git/unitt/public_html/painel/public/index.php(60): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#32 {main}  
+[2018-02-22 13:33:46] local.ERROR: exception 'ErrorException' with message 'include(/home/ren/git/unitt/public_html/painel/vendor/composer/../../app/Http/Controllers/GruposUsuariosController.php): failed to open stream: No such file or directory' in /home/ren/git/unitt/public_html/painel/vendor/composer/ClassLoader.php:414
+Stack trace:
+#0 /home/ren/git/unitt/public_html/painel/vendor/composer/ClassLoader.php(414): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/r...', '/home/ren/git/u...', 414, Array)
+#1 /home/ren/git/unitt/public_html/painel/vendor/composer/ClassLoader.php(414): Composer\Autoload\includeFile()
+#2 /home/ren/git/unitt/public_html/painel/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/home/ren/git/u...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#4 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#5 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/ControllerInspector.php(35): ReflectionClass->__construct('App\\Http\\Contro...')
+#6 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(256): Illuminate\Routing\ControllerInspector->getRoutable('App\\Http\\Contro...', 'grupos-usuarios')
+#7 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(230): Illuminate\Routing\Router->controller('grupos-usuarios', 'GruposUsuariosC...')
+#8 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(217): Illuminate\Routing\Router->controllers(Array)
+#9 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(108): Illuminate\Support\Facades\Facade::__callStatic('controllers', Array)
+#10 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(108): Illuminate\Support\Facades\Route::controllers(Array)
+#11 [internal function]: App\Providers\RouteServiceProvider->{closure}(Object(Illuminate\Routing\Router))
+#12 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(398): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#13 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(219): Illuminate\Routing\Router->group(Array, Object(Closure))
+#14 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(124): Illuminate\Support\Facades\Facade::__callStatic('group', Array)
+#15 /home/ren/git/unitt/public_html/painel/app/Http/routes.php(124): Illuminate\Support\Facades\Route::group(Array, Object(Closure))
+#16 /home/ren/git/unitt/public_html/painel/app/Providers/RouteServiceProvider.php(41): require('/home/ren/git/u...')
+#17 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#18 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(398): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#19 /home/ren/git/unitt/public_html/painel/app/Providers/RouteServiceProvider.php(42): Illuminate\Routing\Router->group(Array, Object(Closure))
+#20 [internal function]: App\Providers\RouteServiceProvider->map(Object(Illuminate\Routing\Router))
+#21 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#22 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(72): Illuminate\Container\Container->call(Array)
+#23 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(31): Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes()
+#24 /home/ren/git/unitt/public_html/painel/app/Providers/RouteServiceProvider.php(29): Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot(Object(Illuminate\Routing\Router))
+#25 [internal function]: App\Providers\RouteServiceProvider->boot(Object(Illuminate\Routing\Router))
+#26 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#27 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(757): Illuminate\Container\Container->call(Array)
+#28 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(740): Illuminate\Foundation\Application->bootProvider(Object(App\Providers\RouteServiceProvider))
+#29 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(App\Providers\RouteServiceProvider), 15)
+#30 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(741): array_walk(Array, Object(Closure))
+#31 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#32 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#33 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#34 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#35 /home/ren/git/unitt/public_html/painel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#36 /home/ren/git/unitt/public_html/painel/public/index.php(60): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#37 {main}  
+[2018-02-22 14:30:59] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'subtitle' (T_STRING), expecting ')'' in /home/ren/git/unitt/public_html/painel/resources/lang/pt-br/login.php:14
+Stack trace:
+#0 {main}  
+[2018-02-22 14:31:39] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'subtitle' (T_STRING), expecting ')'' in /home/ren/git/unitt/public_html/painel/resources/lang/pt-br/login.php:14
+Stack trace:
+#0 {main}  
+[2018-02-22 14:32:05] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'subtitle' (T_STRING), expecting ')'' in /home/ren/git/unitt/public_html/painel/resources/lang/pt-br/login.php:14
+Stack trace:
+#0 {main}  
+[2018-02-22 14:56:41] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''empresa'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'' in /home/ren/git/unitt/public_html/painel/resources/lang/pt-br/perfil.php:29
+Stack trace:
+#0 {main}  

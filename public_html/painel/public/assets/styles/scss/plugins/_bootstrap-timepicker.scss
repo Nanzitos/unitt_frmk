@@ -1,0 +1,129 @@
+/* $bootstrap-timepicker
+ ------------------------------------------*/
+
+.bootstrap-timepicker {
+  position: relative;
+  &.pull-right {
+    .bootstrap-timepicker-widget {
+      &.dropdown-menu {
+        left: auto;
+        right: 0;
+        &:before {
+          left: auto;
+          right: 0.75rem;
+        }
+        &:after {
+          left: auto;
+          right:  0.8125rem;
+        }
+      }
+    }
+  }
+}
+
+.bootstrap-timepicker-widget {
+  &.dropdown-menu {
+    padding: 1px;
+    &:before {
+      border-bottom: 0.4375rem solid rgba(0, 0, 0, 0.2);
+      border-left: 0.4375rem solid transparent;
+      border-right: 0.4375rem solid transparent;
+      content: "";
+      display: inline-block;
+      position: absolute;
+    }
+    &:after {
+      border-bottom: 0.375rem solid #FFFFFF;
+      border-left: 0.375rem solid transparent;
+      border-right: 0.375rem solid transparent;
+      content: "";
+      display: inline-block;
+      position: absolute;
+    }
+  }
+  &.timepicker-orient-left {
+    &:before {
+      left: 0.375rem;
+    }
+    &:after {
+      left: 0.4375rem;
+    }
+  }
+  &.timepicker-orient-right {
+    &:before {
+      right: 0.375rem;
+    }
+    &:after {
+      right: 0.4375rem;
+    }
+  }
+  &.timepicker-orient-top {
+    &:before {
+      top: -0.4375rem;
+    }
+    &:after {
+      top: -0.375rem;
+    }
+  }
+  &.timepicker-orient-bottom {
+    &:before {
+      top: auto;
+      bottom: -0.4375rem;
+      border-bottom: 0;
+      border-top: 0.4375rem solid #999;
+    }
+    &:after {
+      top: auto;
+      bottom: -0.375rem;
+      border-bottom: 0;
+      border-top: 0.375rem solid #ffffff;
+    }
+  }
+  a.btn,
+  input {
+    @include rounded($border-radius-base);
+  }
+  table {
+    td.separator {
+      width: 0.125rem;
+      padding: 0;
+    }
+    td {
+      a {
+        padding: 0;
+        color: $text-color;
+        &:hover {
+          background-color: transparent;
+          @include rounded($border-radius-base);
+          border-color: transparent;
+          color: darken($text-color, 10%)
+        }
+        i {
+          @include font-awesome();
+          font-size: $font-size-base;
+          &::after {
+            display: inline-block;
+            width: 0.875rem;
+            height: 0.875rem;
+            vertical-align: middle;
+          }
+        }
+        .icon-chevron-down::after {
+          content: "\f0dd";
+          line-height: 0.5625rem;
+        }
+        .icon-chevron-up::after {
+          content: "\f0de";
+          line-height: 1.25rem;
+        }
+      }
+      input {
+        border: 0;
+      }
+    }
+  }
+}
+
+.bootstrap-timepicker-widget .modal-content {
+  padding: 0.25rem;
+}

@@ -1,0 +1,21 @@
+{% extends 'inc/base.html.twig' %}
+{% set moduleName = 'Home' %}
+{% block metatitle %}{{ settings.title|raw }} - {{ moduleName }} {% endblock %}
+{% block metadescription %}{{ settings.descriptions|raw }}{% endblock %}
+{% block metakeywords %}{{ settings.keywords|raw }}{% endblock %}
+{% block stylesheet %}
+{% endblock %}
+{% block JScontainer %}
+{% endblock %}
+{% block container %}
+    <section class="bg-color padding-top-bottom13">
+        <div class="container">
+            <div class="row nopadding">
+                <div class="col-md-12">
+                  <h1 class="center text-center"> Olá Mundo Porque Não ?!</h1>
+                </div>
+                <p class="clearfix"></p>
+            </div>
+        </div>
+    </section>
+{% endblock %}

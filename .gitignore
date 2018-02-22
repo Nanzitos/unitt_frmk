@@ -1,0 +1,7 @@
+.ignore
+app/
+app/app_global.php
+public_html/painel/storage
+src/Bundles/Cache
+vendor/
+nbproject/

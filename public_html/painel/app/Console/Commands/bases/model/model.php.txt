@@ -1,0 +1,33 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class {CLASS_NAME} extends MyModel
+{
+	//protected $connection       = '';
+    //protected $collection       = 'pedidos';
+    //protected $table            = '';
+    //public    $seed             = '';
+    //public    $pk               = 'id';
+    //public    $btn_deletar      = true;
+    //public    $btn_editar       = true;
+    //public    $send_form_button = true;
+    //public    $deletar          = true;
+
+    //const CREATED_AT            = 'criado_em';
+    //const UPDATED_AT            = 'editado_em';
+
+    /*
+	public function bind($data)
+	{
+
+	}
+
+	public function afterSave($Model)
+    {
+
+    }
+    */
+}

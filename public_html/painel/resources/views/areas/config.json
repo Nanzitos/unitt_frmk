@@ -1,0 +1,148 @@
+{
+	"index":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/areas.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+
+		],
+
+		"modals":
+		[
+
+		],
+
+		"list_fields":
+		{
+			"id":"#",
+			"id_pai":"Marca Pai",
+			"titulo":"Área",
+			"url":"URL",
+			"order_by":"Ordenação",
+			"ativo":"Status"
+		}
+	},
+
+	"form":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/areas.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+			{
+				"label":true,
+				"name":"id_pai",
+				"translate":"areas.area_pai",
+				"type":"select",
+				"relation":["Areas","area"],
+				"id":"id_pai",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"titulo",
+				"translate":"areas.titulo",
+				"type":"text",
+				"id":"titulo",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"subtitulo",
+				"translate":"areas.subtitulo",
+				"type":"text",
+				"id":"subtitulo",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"descricao",
+				"translate":"areas.descricao",
+				"type":"text",
+				"id":"descricao",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"icon",
+				"translate":"areas.icon",
+				"type":"text",
+				"id":"icon",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"controller",
+				"translate":"areas.controller",
+				"type":"text",
+				"id":"controller",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"url",
+				"translate":"areas.url",
+				"type":"text",
+				"id":"url",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"order_by",
+				"translate":"areas.order_by",
+				"type":"text",
+				"id":"order_by",
+				"class":"",
+				"validate":"text|max:255|min:3"
+			},
+			{
+				"label":true,
+				"name":"super_admin",
+				"translate":"areas.super_admin",
+				"type":"boolean",
+				"id":"super_admin",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"ativo",
+				"translate":"areas.status",
+				"type":"boolean",
+				"id":"ativo",
+				"class":"",
+				"validate":""
+			}
+
+		],
+
+		"modals":
+		[
+
+		]
+	}
+}

@@ -1,0 +1,10 @@
+Bundles:
+    #Land Page Pró-Ética     
+    /:
+            _controller:	{ Bundles:Default:index}
+            id:                 { 0 }
+            access:		{ ANONYMOUS_USER }
+            rule_access:	{ NONE } 
+
+    
+

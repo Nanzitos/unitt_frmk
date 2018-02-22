@@ -1,0 +1,28 @@
+{
+	"index":
+	{
+		"scripts":
+		[
+			"assets/vendor/flot/jquery.flot.js",
+			"assets/vendor/flot/jquery.flot.resize.js",
+			"assets/vendor/flot/jquery.flot.categories.js",
+			"assets/vendor/flot/jquery.flot.stack.js",
+			"assets/vendor/flot/jquery.flot.time.js",
+			"assets/vendor/flot/jquery.flot.pie.js",
+			"assets/vendor/flot-spline/js/jquery.flot.spline.js",
+			"assets/vendor/flot.orderbars/js/jquery.flot.orderBars.js",
+			"assets/scripts/helpers/sameheight.js",
+			"assets/scripts/ui/dashboard.js"
+		]
+	},
+
+	"teste":
+	{
+		"scripts":
+		[
+			"aaaa.js",
+			"bbbb.js",
+			"cccc.js"
+		]
+	}
+}
